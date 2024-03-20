@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: founders;
+    src: url(/FoundersGrotesk-Semibold.ttf);
+}
+
+@font-face {
+    font-family: neu;
+    src: url(/NeueMontreal-Regular.ttf);
+}
+
+@font-face {
+    font-family: ico;
+    src: url(/icomoon.ttf);
+}
+
+.card:hover{
+    scale: 0.97;
+    transition: cubic-bezier(0.45,0.05,0.55,0.95)1s;
+}
+
+
+.img:hover{
+    scale: 1.2;
+    transition: cubic-bezier(0.45,0.05,0.55,0.95)1s;
+
+}
+
+.nav{
+    mix-blend-mode: difference;
+}
